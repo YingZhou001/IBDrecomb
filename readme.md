@@ -46,7 +46,7 @@ Users can also customize advanced parameters such as the bin size.
 A full list of parameters and their default values can be found by typing 
 
 ```
-/src/IBDrecomb -help
+../src/IBDrecomb -help
 
   Usage: IBDrecomb [options] parameters
 
