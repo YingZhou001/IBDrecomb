@@ -22,7 +22,7 @@ void read_source_ibd(char *ibdinp, int **sourceIBD)
 	if(ibd)fscanf(ifp, "%lf %lf", &a, &b);
 	if(simibd)fscanf(ifp, "%*s %*s %*s %*s %*s %lf %lf %*s", &a, &b);
 	if(refinedibd){
-	    fscanf(ifp, "%*s %*s %*s %s %*s %lf %lf %*s %*s", chr, &a, &b);
+	    fscanf(ifp, "%*s %*s %*s %*s %s %lf %lf %*s %*s", chr, &a, &b);
 	    if(strcmp(chr, CHR)!=0)continue;
 	}
 	sourceIBD[i][0]=(int)floor(a)-POSdrift;
