@@ -27,7 +27,7 @@ the executable file __IBDrecomb__ can be used to estimate recombination rates ba
 For example, you can go to the example directory and run test as
 ```
 cd ../example/
-../src/IBDrecomb -refinedibd test.ibd.gz -fbin 10000 > test.10000.map
+../src/IBDrecomb -refinedibd test.1.ibd.gz -fbin 10000 > test.10000.map
 ```
 The IBD input can be a plain text file or a gzip-compressed file (.gz), which can be in refined-IBD's format ('-refinedibd') or a generic format ('-ibd') that each line recording the starting position and ending position of an IBD segment. 
 In this example, the parameter '-fbin 10000' specifies the estimation at scale 10kb and the output is saved to the file 'test.10000.map'. 
@@ -39,7 +39,7 @@ which is the average recombination rate over the estimation region. The value of
 If the average rate is 1.21cM/Mb, then we can run the program as
 
 ```
-../src/IBDrecomb -refinedibd test.ibd.gz -fbin 10000 -rate 1.21 > test.10000.normalized.map
+../src/IBDrecomb -refinedibd test.1.ibd.gz -fbin 10000 -rate 1.21 > test.10000.normalized.map
 ```
  
 Users can also customize advanced parameters such as the bin size. 
