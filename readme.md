@@ -1,4 +1,4 @@
-% IBDrecomb Manual 
+# IBDrecomb Manual 
 
 Content
 -------
