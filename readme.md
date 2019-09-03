@@ -10,7 +10,7 @@ Content
 
 # Introduction
 
-**IBD** based **rec**ombination estimation (**IBDrecomb**) is an efficient method for constructing fine-scale genome-wide recombination maps. 
+**IBD** based **recomb**ination estimation (**IBDrecomb**) is an efficient method for constructing fine-scale genome-wide recombination maps. 
 It can be applied to IBD segments inferred from population-based samples with thousands of individuals. IBD segments may be inferred using Refined IBD (add link).
 
 # Citation
