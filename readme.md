@@ -15,7 +15,7 @@ It can be applied to IBD segments inferred from population-based samples with th
 
 # Citation
 
-TBD
+Zhou Y, Browning BL, Browning SR. Population-specific recombination maps from segments of identity by descent. The American Journal of Human Genetics. 2020 Jul 2;107(1):137-48.
 
 # Installation and Usage
 
